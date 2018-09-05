@@ -5,7 +5,7 @@
 * 学习kotlin
 * 顺带学习其他
 
-## 视频资料
+## 资料 <i class="fas fa-desktop"></i>
 
 [kotin入门与进阶(视频)](https://www.bilibili.com/video/av27742582?t=198&p=3)
 
@@ -17,7 +17,7 @@
 
 [Kotlin深入浅出系列(知乎专栏)](https://zhuanlan.zhihu.com/c_183300276)
 
-<i class="fa fa-weixin"></i>
+[kotlin极简教程](https://zhuanlan.zhihu.com/kotlinworld)
 
 <head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
