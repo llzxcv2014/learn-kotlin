@@ -24,6 +24,32 @@
 
 package com.lin.learn
 
+/**
+ * @author Lin.L
+ */
+
+val helloWorld: String = "Hello World"
+
+val fromChar: String = String(charArrayOf('H', 'e', 'l', 'l',  'o', ' ', 'W', 'o', 'r', 'l', 'd'))
+
 fun main(args: Array<String>) {
 
+    /*
+     * kotlin中==两个对象是否equal
+     */
+    println(helloWorld == fromChar)
+
+    /*
+     * compare the same
+     */
+    println(helloWorld === fromChar)
+
+
+    val a: Int = 1
+    val b: Int = 2
+
+    /*
+     * 字符串模版
+     */
+    println("$a + $b = ${a + b}")
 }

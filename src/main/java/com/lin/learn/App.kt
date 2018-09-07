@@ -1,4 +1,4 @@
-/**
+/*
  * MIT License
  * Copyright (c) 2018 Lin.L
  *
@@ -29,14 +29,6 @@ import java.util.*
  * @author 83945
  */
 fun main(args: Array<String>) {
-//    val name = if (args.isNotEmpty()) args[0] else "Kotlin"
-//    println("Hello, $name")
-
-//    val person = Person("bob", false)
-//    println(person.isMarried)
-//    println(person.name)
-//    person.isMarried = true
-//    println(person.isMarried)
 
     val rectangle = Rectangle(41, 43)
     println(rectangle.isSquare)

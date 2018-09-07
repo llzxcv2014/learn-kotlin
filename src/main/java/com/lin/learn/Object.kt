@@ -24,6 +24,28 @@
 
 package com.lin.learn
 
-fun main(args: Array<String>) {
+/**
+ * @author Lin.L
+ */
 
+open class Car(type: String, length: Double, width: Double)
+
+class BMW(type: String, length: Double, width: Double, feature: String): Car(type, length, width)
+
+
+fun main(args: Array<String>) {
+    var c: Car = Car("SUV", 123.0, 12.0)
+    var b: BMW = BMW("SUV", 123.3, 12.4, "I`m BMW")
+
+    /*
+     * 抛出ClassCast异常
+     */
+    var cAsB: BMW = c as BMW
+
+    /*
+     * 此时返回为空
+     */
+    var newCAsB: BMW? = c as? BMW
+
+    println(cAsB)
 }
