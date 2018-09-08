@@ -24,6 +24,19 @@
 
 package com.lin.learn
 
-fun main(args: Array<String>) {
+val a: Boolean = true
+val b: Boolean = false
 
+val anInt: Int = 8
+val anotherInt: Int = 0xFF // 255
+val moreInt: Int = 0b00000011 // 3
+
+val maxInt: Int = Int.MAX_VALUE
+val minInt: Int = Int.MIN_VALUE
+
+fun main(args: Array<String>) {
+    println(anotherInt)
+    println(moreInt)
+    println(maxInt)
+    println(minInt)
 }
