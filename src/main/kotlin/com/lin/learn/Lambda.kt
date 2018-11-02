@@ -24,6 +24,29 @@
 
 package com.lin.learn
 
+val printHello = {
+    println("Hello")
+}
+
+/*
+ * 匿名函数
+ */
+val intToLong = fun(x: Int): Long {
+    return x.toLong()
+}
+
+val arr: Array<String> = arrayOf("1", "2", "3")
+
 fun main(args: Array<String>) {
+    arr.forEach ForEach@{
+        /*
+         * 若直接return则main函数直接结束执行。
+         */
+        if ("2" == it) return@ForEach
+        println(it)
+    }
+    // method reference
+    arr.forEach(::println)
+
 
 }
