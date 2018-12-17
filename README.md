@@ -19,6 +19,8 @@
 
 [kotlin极简教程](https://zhuanlan.zhihu.com/kotlinworld)
 
+[Kotlin系列教程](https://blog.csdn.net/xlh1191860939/column/info/26529)
+
 <head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
