@@ -48,5 +48,7 @@ fun main(args: Array<String>) {
     // method reference
     arr.forEach(::println)
 
-
+    println(users.maxBy { it.age})
 }
+
+val users = listOf(User("Alice", 23), User("Bob", 31))

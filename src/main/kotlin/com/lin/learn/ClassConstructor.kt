@@ -55,18 +55,7 @@ fun main(args: Array<String>) {
 /*
  * 第一种方式
  */
-class User constructor(name: String, age: Int) {
-    private val name: String
-    private val age: Int
-
-    /*
-     * 初始化代码块
-     */
-    init {
-        this.name = name
-        this.age = age
-    }
-}
+data class User constructor(var name: String, var age: Int)
 
 /*
  * 第二种方式
